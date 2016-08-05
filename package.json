@@ -1,0 +1,15 @@
+{
+  "name": "chrome-automation",
+  "version": "1.0.0",
+  "description": "automate chrome thru remote debugging protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "praneethbandi",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-remote-interface": "^0.12.3",
+    "lodash": "^4.14.1"
+  }
+}
