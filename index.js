@@ -46,7 +46,7 @@ function initiate() {
             Console.enable();
             Page.enable();
             once('ready', function () {
-                Page.navigate({ 'url': 'https://mah-qa3.devop.vertafore.com' });
+                Page.navigate({ 'url': 'url' });
                 Page.loadEventFired(function () {
                     console.log("load event");
                     dequeueStep(chrome);
